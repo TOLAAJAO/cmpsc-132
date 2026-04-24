@@ -1,7 +1,6 @@
 # main.py
 
 from person import Person
-from smartwatch import SmartWatch
 from medication import Medication
 from contact import Contact
 
@@ -19,18 +18,23 @@ def main():
     display_welcome()
 
     people = [
-        Person(1, "Omotola", "Friend"), Person(2, "Sarah", "Sister"), Person(3, "Mom", "Family")
+        Person(1, "Omotola", "Friend"), 
+        Person(2, "Sarah", "Sister"),
+        Person(3, "Mom", "Family")
     ]
 
     medications = [ 
-        Medication("Insulin", "08:00"), Medication("Vitamin C", "12:00"), Medication("Painkiller", "20:00")
+        Medication("Insulin", "08:00"), 
+        Medication("Vitamin C", "12:00"), 
+        Medication("Painkiller", "20:00")
     ]
 
     contacts = [
-        Contact("Mom","555-1234"), Contact("Dad", "555-7672"), Contact("Emergency Services", "911")
+        Contact("Mom","555-1234"), 
+        Contact("Dad", "555-7672"), 
+        Contact("Emergency Services", "911")
     ]
 
-    watch = SmartWatch()
     while True:
         print("\n--- Smart Watch Menu ---")
         print("1. Detect Person")
@@ -87,7 +91,7 @@ def main():
             print("Exiting system ...")
             break
         else:
-            print("Invalid choice. Try again")
+            print("Invalid choice. Try again.")
     
 
 if __name__ == "__main__":

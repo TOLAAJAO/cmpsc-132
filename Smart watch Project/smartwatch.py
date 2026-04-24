@@ -11,3 +11,5 @@ class SmartWatch:
             print(f"Warning: Obstacle ahead {direction}. Slow down.")
         else:
             print("Path is clear.")
+
+# Not using because I have to use sensor and that is too broad but I am keeping the stimulation code just to show I tried it.
