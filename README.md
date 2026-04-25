@@ -20,8 +20,11 @@ simulated through a console interface.
 ## How to Run the Program
 1. Open the folder in Visual Studio Code
 2. Make sure Python 3 is installed on your system
-3. Run the following command in the terminal: python main.py
-4. Follow the on-screen menu instructions in terminal
+3. Run the following command in the terminal:
+   
+python main.py
+
+4. Follow the on-screen menu instructions in the terminal
 
 ## Project Structure
 - "main.py" - Main program with menu and logic
@@ -33,5 +36,5 @@ simulated through a console interface.
 This project is a simulation. In a real-world implementation, user input would be replaced by voice commands, sensors, or automated
 systems to better support visually impaired users. 
 
-By: Omotola Ajao 
+Author: Omotola Ajao 
  
