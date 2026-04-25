@@ -20,18 +20,15 @@ simulated through a console interface.
 ## How to Run the Program
 1. Open the folder in Visual Studio Code
 2. Make sure Python 3 is installed on your system
-3. Run the following command in the terminal:
-   
-python main.py
-
+3. Run the following command in the terminal: python main.py
 4. Follow the on-screen menu instructions in the terminal
 
 ## Project Structure
-- "main.py" - Main program with menu and logic
-- "person.py" - Person class for storing known individuals
-- "medication.py" - Medication class for reminders
-- "contact.py" - Contact class for emergency contacts
-- "smartwatch.py" - Detect obstacle class, not used in final project because it needs sensors
+- 'main.py' - Main program with menu and logic
+- 'person.py' - Person class for storing known individuals
+- 'medication.py' - Medication class for reminders
+- 'contact.py' - Contact class for emergency contacts
+- 'smartwatch.py' - Previously used for obstacle detection; not part of final implementation due to sensor requirements
 
 This project is a simulation. In a real-world implementation, user input would be replaced by voice commands, sensors, or automated
 systems to better support visually impaired users. 
