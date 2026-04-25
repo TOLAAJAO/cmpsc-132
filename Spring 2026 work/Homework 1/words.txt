@@ -1,8 +1,0 @@
-ball
-bats
-bird
-toys
-treat
-bin
-tree
-boy
